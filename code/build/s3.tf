@@ -8,9 +8,9 @@ resource "aws_s3_bucket" "dev_s3" {
 
   tags = {
     Environment          = "Dev"
-    git_commit           = "c25b34f7a7db76d2d7ebba295405a1b4d5c3c3f1"
+    git_commit           = "8a96d9d44c1267545a0b6d47ded7039725f3f010"
     git_file             = "code/build/s3.tf"
-    git_last_modified_at = "2024-12-11 18:07:42"
+    git_last_modified_at = "2024-12-11 18:02:53"
     git_last_modified_by = "earl.tan@girith-solutions.co"
     git_modifiers        = "earl.tan"
     git_org              = "EarlT-Girith"
